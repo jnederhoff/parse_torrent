@@ -22,8 +22,8 @@ defmodule ParseTorrent.Mixfile do
 
   defp deps do
     [
-      {:earmark, "0.2.1"},
-      {:bencode, "0.3.0"},
+      {:earmark, "~> 0.2"},
+      {:bencode, "~> 0.3"},
       {:ex_doc, "0.11.4", only: [:dev]}
     ]
   end
